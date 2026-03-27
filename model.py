@@ -50,7 +50,7 @@ def Calc_Light(O, D, Model, n=64, near=2.0, far=6.0):
     # print(dis[..., 0].shape, (dis[..., 1:] - dis[..., :-1]).shape)
 
     # 3.带入公式
-    deltas = torch.cat([dis[..., :1], dis[..., 1:] - dis[..., :-1]], dim=-1)  # [m,n]
+    deltas = (far - near) / (n + 1)
     alphas = 1 - torch.exp(-deltas * dens)  # [m,n]
     preT = torch.cumprod(1.0 - alphas + 1e-10, dim=-1)  # [m,n]
     preT = torch.cat([torch.ones([m, 1]), preT[..., :-1]], dim=-1)
