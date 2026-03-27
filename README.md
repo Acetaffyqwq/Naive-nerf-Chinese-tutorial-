@@ -7,6 +7,6 @@ nerf_lego_final.pth 是 num_epochs = 10000 时跑出来的结果，可以用 tes
 
 渲染结果：（还是非常朴素的模型）
 
-![54f16e5c-9b24-4955-aeb2-a803e1fca14d.png](https://picui.ogmua.cn/s1/2026/03/26/69c52d10d1108.webp)
+![2ed7bc67-f4a7-4045-ae48-69f5f0815aa6.png](https://picui.ogmua.cn/s1/2026/03/27/69c65589972c0.webp)
 
 ![2459202b-52ca-4b6a-b1e2-b4900f2866f2.png](https://picui.ogmua.cn/s1/2026/03/26/69c52d11989e1.webp)
