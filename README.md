@@ -3,10 +3,10 @@ Nerf 的学习笔记，以及一个朴素的实现
 
 数据在 [nerf_data](https://drive.google.com/drive/folders/1cK3UDIJqKAAm7zyrxRYVFJ0BRMgrwhh4) 下载 nerf_synthetic.zip 文件，然后更名为 data。
 
-nerf_lego_final.pth 是 num_epochs = 10000 时跑出来的结果，可以用 test 直接调用。
+nerf_lego_final.pth 是 num_epochs = 10000 时跑出来的结果，可`以用 test 直接调用。
 
 渲染结果：（还是非常朴素的模型）
 
-![2ed7bc67-f4a7-4045-ae48-69f5f0815aa6.png](https://picui.ogmua.cn/s1/2026/03/27/69c65589972c0.webp)
+![1](https://i.ibb.co/Ly93RQR/bbcfb7850f40d6d99d8f6d78f6444be1.png)
 
-![2459202b-52ca-4b6a-b1e2-b4900f2866f2.png](https://picui.ogmua.cn/s1/2026/03/26/69c52d11989e1.webp)
+![2459202b-52ca-4b6a-b1e2-b4900f2866f2.png](https://i.ibb.co/99Mpvkrg/1bf8ca8515d7dbaafdb37e2e774eb557.png)
